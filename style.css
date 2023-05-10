@@ -1,0 +1,79 @@
+
+.gamespace{
+    width: 70vw;
+    height: 80vh;
+    background-color: black;
+    left: 15vw;
+    top: 10vh;
+    position: fixed;
+}
+
+.mic{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: azure;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 2;
+}
+
+
+.hrac1{
+    width: 20px;
+    height: 80px;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateX(-50%);
+    background-color: aliceblue;
+}
+
+.hrac2{
+    width: 20px;
+    height: 80px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateX(-50%);
+    background-color: aliceblue;
+}
+
+.score1{
+    left: 5vw;
+    top: 1vh;
+    background-color: black;
+    z-index: 1;
+    color: aliceblue;
+    font-size: 200%;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    position: absolute;
+}
+.score2{
+    right: 5vw;
+    top: 1vh;
+    background-color: black;
+    z-index: 1;
+    color: aliceblue;
+    font-size: 200%;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    position: absolute;
+}
+.pause{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url(https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/pause-icon-18-256.png);
+    background-size: contain;
+    visibility: hidden;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+
+}
