@@ -23,8 +23,8 @@
 
 
 .hrac1{
-    width: 20px;
-    height: 80px;
+    width: 2.5vh;
+    height: 10vh;
     position: absolute;
     left: 30px;
     top: 50%;
@@ -33,8 +33,8 @@
 }
 
 .hrac2{
-    width: 20px;
-    height: 80px;
+    width: 2.5vh;
+    height: 10vh;
     position: absolute;
     right: 10px;
     top: 50%;
