@@ -14,9 +14,8 @@
     border-radius: 50%;
     background-color: azure;
     left: 50%;
-    transform: translateX(-50%);
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
     position: absolute;
     z-index: 2;
 }
@@ -75,4 +74,17 @@
     left: 50%;
     transform: translateX(-50%);
     top: 35%;
+}
+.countdown{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35%;
+    font-size: 80px;
+    color: aliceblue;
+    font-family: "Lucida Console";
+    font-weight: bold;
 }

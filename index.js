@@ -6,6 +6,7 @@ const gamespace = document.getElementById('gamespace');
 const score1 = document.getElementById('score1');
 const score2 = document.getElementById('score2');
 const pause = document.getElementById('pause');
+const countdown = document.getElementById('countdown');
 
 //promeny
 let x = 5;
@@ -22,6 +23,7 @@ var width = gamespace.clientWidth;
 var hrac1score = 0;
 var hrac2score = 0;
 var stop = 1;
+let  c = 3;
 
 //sleep funkce
 function sleep(milliseconds) {
@@ -151,4 +153,16 @@ document.addEventListener('keypress', (event) =>{
     }
 });
 
-interval();
+//odpocet
+function updateCountdown() {
+    countdown.innerText = c;
+    c--;
+    if (c >= 0) {
+      setTimeout(updateCountdown, 500);
+    } else {
+      countdown.style.visibility = 'hidden';
+      interval();
+    }
+  }
+  
+  updateCountdown();
